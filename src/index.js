@@ -72,6 +72,6 @@ const TimerWrapper = ({ timer }) =>
         <h1 className="text-secondary">Simple Timer</h1>
         <TimerView {...{ timer }} />
         <TimerControls {...{ timer }} />
-    </div>;
+    </div>
 
 ReactDOM.render(<TimerWrapper timer={myTimer} />, document.getElementById("root"))
